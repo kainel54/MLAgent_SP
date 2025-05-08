@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1745475636",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\mlagents-learn D:\\ML_AGENT\\ml-agents-release_20\\ml-agents-release_20\\config\\poca\\EscapeRoom.yaml --run-id=escaperoom01 --results-dir=D:\\ML_AGENT\\ml-agents-release_20\\ml-agents-release_20\\results--",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1745475683"
+    },
+    "total": 46.7396788,
+    "count": 1,
+    "self": 0.013303700000001584,
+    "children": {
+        "run_training.setup": {
+            "total": 0.21691930000000004,
+            "count": 1,
+            "self": 0.21691930000000004
+        },
+        "TrainerController.start_learning": {
+            "total": 46.5094558,
+            "count": 1,
+            "self": 0.0002161999999898967,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 46.509213700000004,
+                    "count": 1,
+                    "self": 46.509213700000004
+                },
+                "TrainerController._save_models": {
+                    "total": 2.5900000004241974e-05,
+                    "count": 1,
+                    "self": 2.5900000004241974e-05
+                }
+            }
+        }
+    }
+}

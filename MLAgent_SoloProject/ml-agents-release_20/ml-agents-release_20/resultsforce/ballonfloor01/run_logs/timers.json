@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1741847133",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\mlagents-learn D:\\ML_AGENT\\ml-agents-release_20\\ml-agents-release_20\\config\\ppo\\BallOnFloor.yaml --run-id=ballonfloor01 --results-dir=D:\\ML_AGENT\\ml-agents-release_20\\ml-agents-release_20\\resultsforce",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1741847146"
+    },
+    "total": 12.7281247,
+    "count": 1,
+    "self": 0.009329400000002153,
+    "children": {
+        "run_training.setup": {
+            "total": 0.11205799999999999,
+            "count": 1,
+            "self": 0.11205799999999999
+        },
+        "TrainerController.start_learning": {
+            "total": 12.606737299999999,
+            "count": 1,
+            "self": 0.00041869999999732954,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 12.606307000000001,
+                    "count": 1,
+                    "self": 12.606307000000001
+                },
+                "trainer_threads": {
+                    "total": 1.4000000003733248e-06,
+                    "count": 1,
+                    "self": 1.4000000003733248e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.0200000000182285e-05,
+                    "count": 1,
+                    "self": 1.0200000000182285e-05
+                }
+            }
+        }
+    }
+}
